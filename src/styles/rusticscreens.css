@@ -1,0 +1,39 @@
+.RusticRootsBase {
+    background-color: #201713;
+  }
+  
+  .Primary_Screens {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .Primary_Screens img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .Overlay_Screens {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .Overlay_Screens img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .Primary_Screens {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      padding: 0.5rem;
+    }
+
+    .Overlay_Screens {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        padding: 0.5rem;
+      }
+  }
+  
