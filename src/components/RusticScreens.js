@@ -35,7 +35,6 @@ function RusticScreens() {
             <img src={createacct} alt="Create Account"></img>
             <img src={search} alt="search"></img>
         </div>
-        <a href="https://www.figma.com/proto/ThFLGvqKlWvsmi6PO7q5bp/Rustic-Roots?node-id=19-2946&scaling=min-zoom&page-id=19%3A2877&starting-point-node-id=19%3A2946">View the Figma Prototype</a>
     </div>
   )
 }
